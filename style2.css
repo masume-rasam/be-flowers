@@ -1,0 +1,163 @@
+
+@font-face {
+    font-family:'AnekDevanagari_Expanded-Light' ;
+    src: url(./assets/fonts/AnekDevanagari_Expanded-Light.ttf);
+}
+
+@font-face {
+    font-family:'Cinzel-VariableFont_wght' ;
+    src: url(./assets/fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+body{
+    overflow: hidden;
+    background-image: url(./assets/images/shh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 89vh;
+}
+
+.bg8{
+    background-color: rgb(184, 31, 62);
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    margin: auto;
+}
+
+form {
+    width: 80%;
+    border: 1px solid #5f0024;
+    background-color: rgba(229, 76, 122, 0.922);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgb(158, 4, 99);
+    margin: 150px auto;
+}
+
+label {
+    font-family:'AnekDevanagari_Expanded-Light' ;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 40px;
+    padding: 12px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+}
+
+form > button {
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: 0;
+    font-family:'AnekDevanagari_Expanded-Light' ;
+
+}
+
+.message {
+    font-family:'AnekDevanagari_Expanded-Light' ;
+    border: 1px solid #270202;
+    background-color: red;
+    color: #fff;
+    padding: 25px 20px;
+    width: 80%;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: all 0.8s;
+}
+
+.message2 {
+    font-family:'AnekDevanagari_Expanded-Light' ;
+    border: 1px solid #012a02;
+    background-color: green;
+    color: #fff;
+    padding: 25px 20px;
+    width: 80%;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: all 0.8s;
+}
+
+
+
+.message > .btn1,
+.message2> .btn2 {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+.b1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+    
+}
+
+.btn3{
+    font-family:'AnekDevanagari_Expanded-Light' ;
+    width: 180px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    
+}
+.btn4{
+    font-family:'AnekDevanagari_Expanded-Light' ;
+    width: 180px;
+    padding: 20px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+}
+.btn3:hover{
+    background-color: crimson;
+    color: white;
+}
+.btn4:hover{
+    background-color: crimson;
+    color: white;
+}
+@media (min-width:800px) {
+    form{
+        width: 40%;
+    }
+    .message{
+        width: 50%;
+    }
+    .message2{
+        width: 50%;
+    }
+}

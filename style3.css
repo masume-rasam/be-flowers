@@ -1,0 +1,66 @@
+.t0{
+    position: relative;
+}
+
+.t1{
+    position: absolute;
+    top: 10px;
+    left: 657px;
+    font-size: 34px;
+    color: rgb(239, 229, 229);
+    cursor: pointer;
+}
+
+.t1:hover{
+    color: rgb(241, 136, 136);
+    
+}
+section{
+    overflow: hidden;
+}
+.other{
+    margin-right: 88px;
+}
+.other:hover{
+   color:blueviolet;
+   cursor: pointer;
+}
+.code{
+    margin: auto;
+}
+.mt{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.bg11{
+    background-color: brown;
+    width: 100%;
+    height: 9vh;
+}
+
+.code1>p{
+    margin-right: 57px;
+}
+.code1>img{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+@media (min-width:990px) {
+    .g4>img{
+        width: 37%;
+        height: 30vh;
+    }
+
+    .code{
+        margin-left: 180px;
+    }
+    .mt{
+        margin-top: 78px;
+        margin-bottom: 50px;
+    }
+}
